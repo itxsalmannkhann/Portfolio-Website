@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a1128;
+  --glow: rgba(31, 79, 255, 0.4);
+}
+
+* {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: #f5f7fa;
+  font-feature-settings: "ss01", "cv01";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* Selection */
+::selection {
+  background: rgba(31, 79, 255, 0.35);
+  color: #fff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #07163d;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #1f4fff, #0f2c8c);
+  border-radius: 999px;
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-[1440px] px-6 lg:px-10;
+  }
+
+  .section {
+    @apply py-section-sm md:py-section-md lg:py-section;
+  }
+
+  .glass {
+    @apply border border-white/10 bg-white/[0.03] backdrop-blur-xl;
+  }
+
+  .glass-card {
+    @apply rounded-xl border border-white/10 bg-card/60 backdrop-blur-xl transition-all duration-300;
+  }
+
+  .gradient-border {
+    position: relative;
+    background:
+      linear-gradient(#101b3c, #101b3c) padding-box,
+      linear-gradient(135deg, rgba(31, 79, 255, 0.6), rgba(255, 255, 255, 0.05))
+        border-box;
+    border: 1px solid transparent;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-white via-soft-white to-accent bg-clip-text text-transparent;
+  }
+
+  .text-blue-gradient {
+    @apply bg-gradient-to-r from-accent via-electric to-deep-blue bg-clip-text text-transparent;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-base font-semibold transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-electric focus-visible:ring-offset-2 focus-visible:ring-offset-surface disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply btn bg-gradient-to-r from-electric to-deep-blue text-white shadow-glow-sm hover:-translate-y-0.5 hover:shadow-glow active:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply btn border border-white/15 bg-white/[0.04] text-soft-white hover:-translate-y-0.5 hover:border-electric/50 hover:bg-white/[0.08];
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-1.5 text-sm font-medium text-muted-gray;
+  }
+}
+
+@layer utilities {
+  .bg-dots {
+    background-image: radial-gradient(
+      rgba(255, 255, 255, 0.06) 1px,
+      transparent 1px
+    );
+    background-size: 24px 24px;
+  }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
