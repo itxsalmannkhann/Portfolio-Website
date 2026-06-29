@@ -286,3 +286,16 @@ salman-khan-ai-portfolio/
 
 ---
 
+## 📜 Available Scripts
+
+| Command | Description |
+|---|---|
+| `pnpm dev` | Start the local development server |
+| `pnpm build` | Build for production |
+| `pnpm start` | Run the production build locally |
+| `pnpm lint` | Run ESLint |
+| `pnpm typecheck` | Run TypeScript type checking |
+| `pnpm prisma studio` | Open Prisma Studio to inspect the database |
+| `pnpm test` | Run the test suite |
+
+---
