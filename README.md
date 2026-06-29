@@ -82,3 +82,22 @@ The site is built with a production-grade Next.js architecture, a custom dark-gl
 | **Phone** | +92 311 9479237 |
 | **Location** | Pakistan |
 
+---
+
+## ✨ Features
+
+- 🎨 Premium dark-minimal UI inspired by Vercel, Stripe, Anthropic, NVIDIA, and Hugging Face
+- 🌌 Animated hero with neural-network/particle background and 3D floating elements (Three.js / React Three Fiber)
+- 🧭 Sticky navbar with mega menu, command palette (⌘K) search, and mobile-first navigation
+- 📊 Interactive skills dashboard with animated progress bars and radar charts
+- 🗂️ Filterable, searchable project showcase with case-study modals (problem → solution → stack → results)
+- 🧾 Interactive resume with one-click PDF download
+- ✍️ Full-featured blog with categories, tags, search, pagination, and reading time
+- 🤖 Dedicated robotics section (Arduino, Raspberry Pi, ROS, embedded systems, autonomous CV)
+- 📜 Certifications showcase with verification links and modal previews
+- 💬 Contact system with validated form, file upload, social links, and dark-themed map integration
+- 🌗 Smooth scroll-triggered, parallax, and magnetic-button micro-interactions (Framer Motion + GSAP)
+- 🔍 Full SEO suite — JSON-LD structured data, Open Graph, sitemap, robots.txt
+- ♿ WCAG AA accessible — semantic HTML, keyboard navigation, visible focus states
+- ⚡ 95+ target Lighthouse score across Performance, Accessibility, Best Practices, and SEO
+
