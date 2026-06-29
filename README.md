@@ -101,3 +101,22 @@ The site is built with a production-grade Next.js architecture, a custom dark-gl
 - ♿ WCAG AA accessible — semantic HTML, keyboard navigation, visible focus states
 - ⚡ 95+ target Lighthouse score across Performance, Accessibility, Best Practices, and SEO
 
+---
+
+## 🗺️ Pages
+
+| # | Page | Description |
+|---|------|-------------|
+| 1 | **Home** | Animated hero, statistics counters, featured work, CTA buttons |
+| 2 | **About** | Bio, mission/vision, values, education, career timeline |
+| 3 | **Skills** | Interactive dashboard — AI, ML, DL, GenAI, CV, NLP, Robotics, MLOps, Cloud, Web |
+| 4 | **Projects** | Filterable case-study grid with live demo / GitHub / metrics |
+| 5 | **Experience** | Timeline of roles, responsibilities, impact metrics |
+| 6 | **Research** | Focus areas — LLMs, RAG, Agentic AI, Multi-Agent Systems, publications |
+| 7 | **Certifications** | Searchable cert gallery with verification links |
+| 8 | **Blog** | Markdown-powered AI/ML articles with newsletter signup |
+| 9 | **Robotics** | Robotics journey, embedded systems, autonomous CV projects |
+| 10 | **Services** | AI/ML/LLM/RAG service offerings, pricing tiers, consultation CTA |
+| 11 | **Resume** | Interactive resume + downloadable PDF |
+| 12 | **Contact** | Contact form, social links, map, working hours |
+
