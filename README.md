@@ -166,3 +166,15 @@ The site is built with a production-grade Next.js architecture, a custom dark-gl
 **Layout:** 8px spacing system · 1440px max container · 20px border radius
 **Section padding:** 120px desktop / 80px tablet / 60px mobile
 
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js ≥ 18.18
+- pnpm (recommended) / npm / yarn
+- A free [Supabase](https://supabase.com) project
+- A free [Clerk](https://clerk.com) project
+- A [Resend](https://resend.com) API key (for the contact form)
+
