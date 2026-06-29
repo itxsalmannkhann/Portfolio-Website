@@ -202,3 +202,33 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the site locally.
 
+---
+
+## 🔐 Environment Variables
+
+Create a `.env.local` file in the project root with the following keys:
+
+```env
+# App
+NEXT_PUBLIC_SITE_URL=https://salmankhan-ai.vercel.app
+
+# Supabase
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+DATABASE_URL=
+
+# Clerk Authentication
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+# Resend (Contact form emails)
+RESEND_API_KEY=
+CONTACT_FORM_RECEIVER_EMAIL=khanhackersalman@gmail.com
+
+# Analytics
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN=
+```
+
+> Never commit `.env.local` — it is already covered by `.gitignore`.
+
