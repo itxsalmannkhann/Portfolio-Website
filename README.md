@@ -64,3 +64,21 @@
 - [License](#license)
 - [Contact](#contact)
 
+---
+
+## About
+
+This repository contains the source code for **Salman Khan's** professional AI Engineer portfolio — a modern, dark-themed, multi-page web application designed to showcase AI/ML engineering work, research, certifications, and freelance services to recruiters, collaborators, and clients.
+
+The site is built with a production-grade Next.js architecture, a custom dark-glassmorphism design system, and full SEO/accessibility coverage — engineered to meet the visual and technical bar of portfolios from engineers at top AI labs (OpenAI, Anthropic, DeepMind, Meta AI, NVIDIA, Tesla).
+
+**Owner**
+
+| | |
+|---|---|
+| **Name** | Salman Khan |
+| **Title** | AI Engineer · Machine Learning Engineer · Deep Learning Engineer · NLP Engineer · Generative AI Engineer · Computer Vision Engineer · Robotics Enthusiast · Full Stack Developer |
+| **Email** | [khanhackersalman@gmail.com](mailto:khanhackersalman@gmail.com) |
+| **Phone** | +92 311 9479237 |
+| **Location** | Pakistan |
+
