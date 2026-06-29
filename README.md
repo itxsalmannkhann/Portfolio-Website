@@ -120,3 +120,28 @@ The site is built with a production-grade Next.js architecture, a custom dark-gl
 | 11 | **Resume** | Interactive resume + downloadable PDF |
 | 12 | **Contact** | Contact form, social links, map, working hours |
 
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+`Next.js 15` · `React 19` · `TypeScript` · `Tailwind CSS` · `Shadcn UI` · `Framer Motion` · `GSAP` · `Three.js` / `React Three Fiber` · `Lucide Icons`
+
+**Backend / Data**
+`Next.js Server Actions` · `Node.js` · `Supabase` (free tier) · `Prisma ORM`
+
+**Auth**
+`Clerk` (free tier)
+
+**Forms & Validation**
+`React Hook Form` · `Zod`
+
+**Email**
+`Resend`
+
+**SEO**
+`next-seo` · JSON-LD structured data · Open Graph · Twitter Cards · sitemap.xml · robots.txt
+
+**Deployment & Analytics**
+`Vercel` · `Plausible Analytics`
+
