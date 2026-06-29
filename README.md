@@ -145,3 +145,24 @@ The site is built with a production-grade Next.js architecture, a custom dark-gl
 **Deployment & Analytics**
 `Vercel` · `Plausible Analytics`
 
+---
+
+## 🎨 Design System
+
+| Token | Value |
+|---|---|
+| Primary Dark Navy | `#07163D` |
+| Secondary Deep Blue | `#0F2C8C` |
+| Electric Blue | `#1F4FFF` |
+| Accent Blue | `#285CFF` |
+| Soft White | `#F5F7FA` |
+| Muted Gray | `#9AA4B2` |
+| Dark Surface | `#0A1128` |
+| Card Surface | `#101B3C` |
+| Border | `rgba(255,255,255,0.08)` |
+| Glow | `rgba(31,79,255,0.4)` |
+
+**Typography:** Inter · Plus Jakarta Sans · Space Grotesk
+**Layout:** 8px spacing system · 1440px max container · 20px border radius
+**Section padding:** 120px desktop / 80px tablet / 60px mobile
+
