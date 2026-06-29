@@ -23,3 +23,23 @@
 
 [**🌐 Live Site**](https://salmankhan-ai.vercel.app) · [Features](#features) · [Tech Stack](#tech-stack) · [Getting Started](#getting-started) · [Project Structure](#project-structure) · [Deployment](#deployment) · [Contact](#contact)
 
+</div>
+
+---
+
+## 🔗 Live Demo
+
+> **Production:** [https://salmankhan-ai.vercel.app](https://salmankhan-ai.vercel.app)
+> **Staging / Preview:** auto-deployed on every PR via Vercel Preview Deployments
+> **Status page:** _add status badge / uptime monitor link here once configured_
+
+> ⚠️ Replace the placeholder URL above with your actual Vercel/production domain once deployed, and update the badge link accordingly.
+
+<div align="center">
+
+| Home | Projects | Skills Dashboard |
+|---|---|---|
+| _screenshot placeholder_ | _screenshot placeholder_ | _screenshot placeholder_ |
+
+</div>
+
