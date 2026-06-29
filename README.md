@@ -232,3 +232,57 @@ NEXT_PUBLIC_PLAUSIBLE_DOMAIN=
 
 > Never commit `.env.local` — it is already covered by `.gitignore`.
 
+---
+
+## 📁 Project Structure
+
+```
+salman-khan-ai-portfolio/
+├── app/
+│   ├── (marketing)/
+│   │   ├── page.tsx              # Home
+│   │   ├── about/
+│   │   ├── skills/
+│   │   ├── projects/
+│   │   ├── experience/
+│   │   ├── research/
+│   │   ├── certifications/
+│   │   ├── blog/
+│   │   ├── robotics/
+│   │   ├── services/
+│   │   ├── resume/
+│   │   └── contact/
+│   ├── api/
+│   │   ├── contact/route.ts       # Contact form server action / API route
+│   │   └── newsletter/route.ts
+│   ├── sitemap.ts
+│   ├── robots.ts
+│   └── layout.tsx
+├── components/
+│   ├── ui/                        # Shadcn UI primitives
+│   ├── layout/                    # Navbar, Footer, MegaMenu, CommandPalette
+│   ├── sections/                  # Hero, Stats, Timeline, SkillRadar, ProjectCard...
+│   └── three/                     # Three.js / R3F scenes
+├── lib/
+│   ├── prisma.ts
+│   ├── supabase.ts
+│   ├── resend.ts
+│   └── utils.ts
+├── prisma/
+│   └── schema.prisma
+├── content/
+│   └── blog/                      # MDX blog posts
+├── public/
+│   ├── images/
+│   └── resume.pdf
+├── styles/
+│   └── globals.css
+├── .env.example
+├── tailwind.config.ts
+├── next.config.js
+├── package.json
+└── README.md
+```
+
+---
+
