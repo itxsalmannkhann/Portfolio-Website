@@ -178,3 +178,27 @@ The site is built with a production-grade Next.js architecture, a custom dark-gl
 - A free [Clerk](https://clerk.com) project
 - A [Resend](https://resend.com) API key (for the contact form)
 
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+
+# 2. Install dependencies
+pnpm install
+
+# 3. Configure environment variables
+cp .env.example .env.local
+# then fill in the values — see "Environment Variables" below
+
+# 4. Set up the database
+pnpm prisma generate
+pnpm prisma db push
+
+# 5. Run the development server
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the site locally.
+
